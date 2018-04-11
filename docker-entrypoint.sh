@@ -3,4 +3,4 @@ set -e
 
 eval $(/bin/aws-env)
 
-exec /opt/jboss/docker-entrypoint.sh
+exec /opt/jboss/docker-entrypoint.sh "$@"
